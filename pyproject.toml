@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-programming"
+version = "0.1.0"
+description = ""
+authors = ["LXS_TW <19168554+lin157644@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "python_programming"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

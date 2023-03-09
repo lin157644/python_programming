@@ -1,0 +1,239 @@
+7? :(
+20 :(
+
+1112 Python 前測
+ 
+linxs1010@gmail.com (未分享) 切換帳戶
+ 
+儲存中…
+*必填
+Python 基礎能力 前測
+Q1. 下列哪一項語句在Python中是非法的？
+*
+x = y = z = 1
+x = (y = z + 1)
+x, y = y, x
+x += y
+Q2. 關於Python的變數，下列說法錯誤的是哪一項？
+*
+變數不必事先宣告
+變數無須先建立和賦值而可直接使用
+變數無須指定型態
+可以使用 del 釋放資源
+Q3. 下面哪一項不是Python合法的變數名字？
+*
+intA
+40XL
+myProduct
+name
+Q4. 下列哪一項是Python中可變(mutable)的資料型態？
+*
+list
+int
+string
+tuple
+Q5. Python 不支持的數據類型有哪一項？
+*
+char
+int
+float
+list
+Q6. 以下不能建立一個字典的語句是哪一項？
+*
+dict1 = {}
+dict2 = { 3, 4 }
+dict3 = dict(name="Jack",age=40)
+dict4 = dict([ ("name","Jessica") ,("age",38)] )
+Q7. 例外處理的語法中，try-except-else 結構的 else 部分會在什麼條件下執行？
+*
+永遠會執行
+發生 exception 時執行
+沒有發生 exception 時執行
+exception 發生在 except 部分的時候
+Q8. 下列哪一項是Python中可變(mutable)的資料型態？
+*
+list
+int
+string
+tuple
+Q9. Python 不支持的數據類型有哪一項？
+*
+char
+int
+float
+list
+Q10. 設 L=['a','b','c','d','e','f','g']，L[::-1]值是？
+*
+['a', 'd', 'd', 'f']
+['g', 'f', 'e', 'd', 'c', 'b', 'a']
+['g', 'f', 'e', 'd', 'c', 'b']
+['b', 'd', 'f']
+Q11.  下列哪一項不是 Python 語言的特色？
+*
+Python是㇐種開源(Open Source) 的高階程式語言
+Python 幾乎可以在所有的平台上執行
+Python2及Python3可以相容
+Python是一種直譯式語言
+Q12.  設 L=['a','b','c','d','e','f','g']，L[:5]值是？
+*
+abcde
+['a', 'b', 'c', 'd']
+['a', 'b', 'c', 'd', 'e']
+[ 'c', 'd', 'e']
+Q13. x=[1,2,3]，執行 x.append(4)後，x 的值是？
+*
+[1, 2, 3, 4]
+[1, 2, 3]
+[4]
+4
+Q14. x=[1,2,3,4,5,6,7]，執行 x.pop() 的結果值是？
+*
+1
+7
+5
+4
+Q15. 已知 x=[3, 5, 7]，執行 x[1:]=[2] 後，x 的值是多少？
+*
+[2, 7]
+[3, 2]
+[3, 5, 7]
+[2]
+Q16. 已知 x=(3,)，執行 x*3 的值是多少？
+*
+9
+(9,)
+(3, 3, 3)
+Empty
+Q17. 下列程式會印出什麼？
+k = 4
+
+while k <= 8 :
+
+    if k == 6:
+
+        break
+
+    print( k , end="")
+
+    k += 1
+*
+4578
+45
+458
+456
+Q18. 下列程式執行的結果是？
+
+init_tuple_a = '1', '2'
+
+init_tuple_b = ('3', '4')
+
+print (init_tuple_a + init_tuple_b)
+*
+(1, 2, 3, 4)
+('1', '2', '3', '4')
+['1', '2', '3', '4']
+None
+Q19. 程式碼如下，下列哪一個描述是正確的？
+
+a = 7
+
+b = 7
+
+*
+print(a is b) 印出的結果為True
+print(a == b) 印出的結果為True
+print(id(a) == id(b)) 印出的結果為True
+以上皆正確
+Q20.  執行 '1' == 1 的結果是？
+*
+True
+False
+發生 TypeError
+發生 ValueError
+Q21. 下列哪一項印出的結果描述是不正確的？
+*
+print(5 + 3 * 8 < 30 and 3 ** 2 == 9) 印出的結果為 True
+print(6 / 2 * (1 + 2)) 印出的結果為 9.0
+print(25 < 10 + 3 * 4) 印出的結果為 True
+以上皆正確
+Q22. 程式碼如下，x 應為多少才能印出 Something else 的結果？
+if x < 2 :    
+
+    print("Below 2")
+
+elif x >= 2 :    
+
+    print("Two or more")
+
+else :    
+
+    print("Something else")
+*
+1
+2
+3
+永遠無法印出 Something else
+Q23.  對於 Dict 字典的操作，下列哪一項程式印出的結果是不正確的？
+*
+x["age"] = 28，則 print(x)  印出的結果為 {'name': 'Jack', 'age': 28}
+x["email"] = "Jack@gmail.com"，則 print(x)  印出的結果為 {'name': 'Jack', 'age': 30, 'email': 'Jack@gmail.com'}
+print("email" in x) 印出的結果為 False
+print(x["Name"])  印出的結果為 Jack
+Q24. 對於 Set 集合的操作，下列哪一項程式印出的結果是不正確的？
+*
+print({1,2,3,4,3,2}) 印出的結果是 {1,2,3,4,3,2}
+print({2,6,8,12}|{3,6,9,12}) 印出的結果是{2, 3, 6, 8, 9, 12}
+print({2,6,8,12}&{3,6,9,12}) 印出的結果是{12, 6}
+print({2,6,8,12}-{3,6,9,12})  印出的結果是{8, 2}
+Q25.  程式碼如右 friends = ["Tom","Mary","Jack"]，下面哪一行程式可以取得 Jack 的值？
+*
+print(friends["Jack"])
+print(friends[2])
+print(friends[3])
+print(friends[2:3])
+Q26.  請問readlines()方法回傳什麼？
+*
+str
+list of single characters
+a list of lines
+list of integers
+Q27.  下列何者關於檔案開啟模式的敘述是錯誤的？
+*
+當開啟檔案為讀取模式，如果檔案不存在，程式會發生錯誤。
+當開啟檔案為寫入模式，如果檔案不存在，程式會發生錯誤。
+當開啟檔案為寫入模式，如果檔案不存在，會自動產生新檔案。
+當開啟檔案為寫入模式，如果檔案存在，現存檔案會被新內容覆蓋。
+Q28. 下列哪個指令是用來將C:\temp.txt檔開啟為讀取模式(Read-Mode)？注意：只能是讀取模式(Read-Mode)
+*
+infile = open("c:\temp.txt", "r")
+infile = open("c:\\temp.txt", "r")
+infile = open(file = "c:\temp.txt", "r+")
+infile = open(file = "c:\\temp.txt", "r+")
+Q29. 下列哪個指令可以用來讀取整個檔案的內容，並且回傳為字串？注意：假設檔案放在tmpfile物件內
+
+*
+tmpfile.read()
+tmpfile.read(n)
+tmpfile.readline()
+tmpfile.readlines()
+Q30. 下列程式執行的結果何者正確?
+try:
+
+    print('a',end='')
+
+except:
+
+    print('b',end='')
+
+finally:
+
+    print('c',end='')
+
+*
+a
+b
+ab
+ac
+請勿利用 Google 表單送出密碼。
+Google 並未認可或建立這項內容。 檢舉濫用情形 - 服務條款 - 隱私權政策
+Google 表單
