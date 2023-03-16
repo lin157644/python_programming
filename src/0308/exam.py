@@ -1,2 +1,2 @@
-x=8 if 0 else 5
+x = 8 if 0 else 5
 print(x)

@@ -8,6 +8,7 @@ packages = [{include = "python_programming"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jupyterlab = "^3.6.1"
 
 
 [build-system]
